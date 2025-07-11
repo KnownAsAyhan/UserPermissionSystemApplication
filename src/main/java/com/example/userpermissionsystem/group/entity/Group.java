@@ -8,7 +8,7 @@ import lombok.*;
 import java.util.Set;
 
 @Entity
-@Table(name = "groups")
+@Table(name = "`groups`")  // add backticks around groups to escape it
 @Getter
 @Setter
 @NoArgsConstructor
